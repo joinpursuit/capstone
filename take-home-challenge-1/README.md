@@ -1,1 +1,1 @@
-# Take Home Challenge 1 Activity
+# Take Home Challenge 1
