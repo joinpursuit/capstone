@@ -12,15 +12,17 @@ Once you have fundamentals, your role as a developer will (always) be to learn w
 
 > It's been really interesting because there have been some things that when I dreamed it up, I wasn't technically good enough to figure out how to implement (animating svg paths on scroll, for example), I dreamed that up a year before I actually was able to implement it). But as time went and I worked on other things for fun, I would eventually learn enough to implement it.
 
-- Shirley Wu: [How do you learn d3](https://medium.com/@enjalot/how-do-you-learn-d3-js-ccffc151419b)
+- Shirley Wu
 
 > I started with a design vision, then worked backwards to figure out how to achieve it.
 
-- Tony Chu: [How do you learn d3](https://medium.com/@enjalot/how-do-you-learn-d3-js-ccffc151419b)
+- Tony Chu
 
 > I was introduced to D3 by first drawing a smiley face with just SVG... From then on everything I was learning was driven by "I want to do X... now how do I do that?"
 
-- Zan Armstrong: [How do you learn d3](https://medium.com/@enjalot/how-do-you-learn-d3-js-ccffc151419b)
+- Zan Armstrong
+
+All quote are from [How do you learn d3](https://medium.com/@enjalot/how-do-you-learn-d3-js-ccffc151419b)
 
 So for now, put aside your coding skills and let's shift to creating a great app idea. Because you are ready to build anything!
 
@@ -49,7 +51,7 @@ There are four types of industry:
 - Primary: gathering of raw materials, such as agriculture, fishing, mining
 - Secondary: manufacturing, such as making microchips, steel, cars, laptops
 - Tertiary: service, such as teaching, nursing
-- Quaternary - intellectual and research and development, information-sharing, entertainment
+- Quaternary - intellectual and research and development, such as information-sharing, entertainment
 
 [A list of industries](https://www.ilo.org/global/industries-and-sectors/lang--en/index.htm)
 
@@ -81,11 +83,9 @@ Be sure to capture as many of these ideas as possible, no matter how small, whet
 
 Not every product is going to be made for everyone. There are specialized baby products that many adults have no use for. The needs of a young couple is different than that of an old person living on their own.
 
-And perhaps the problem that you identified that was most interesting to you was not something for you. Perhaps your friend has a dog walking business and they have trouble figuring out how to best schedule their time. Perhaps you saw a news report that 70% of car owners lose their keys every day and spend an average of 5 minutes a day looking for their keys, and you want to help them.
+And perhaps the problem that you identified that was most interesting to you was not something for you. Perhaps, you are not fond of dogs but, your friend has a dog walking business and they have trouble figuring out how to best schedule their time. Perhaps, you don't have a lawn yourself, but you saw a news report that 70% of lawnmower owners forget to service their machines on a regular schedule.
 
-When thinking of ideas, it doesn't have to be something that everyone uses. It can be something that addresses the need(s) of a specific part of the population.
-
-Once you have your initial set of ideas from observation, think about who would benefit from your idea. You should now be able to narrow all the ideas you had into a smaller number of ideas that have greater potential.
+Once you have your initial set of ideas from observation, think about who would benefit from your idea. You should now be able to narrow all the ideas you had into a smaller number of ideas that have greater potential to become a business idea.
 
 As you think of specific users your idea will become clearer and more robust.
 
@@ -107,7 +107,7 @@ A real world example is eBay. When eBay first started people were in charge of p
 
 ![Visual of MVP using candle, lantern and lightbulb ](./assets/what-is-a-minimum-viable-product.jpeg)
 
-When you plan for Capstone, your instructor will help you narrow down your idea to something that is possible to build within the time-frame you have. Remember, if building an app was fast and easy, there would only be 1 engineer per company. Remember, nearly anyone can build a bad and incomplete app, but it takes a strong team a long period of time to build something amazing and robust.
+When you plan for Capstone, your instructor will help you narrow down your idea to something that is possible to build within the time-frame you have.
 
 [Image from](https://clevertap.com/blog/minimum-viable-product/)
 
@@ -132,7 +132,7 @@ Before beginning a project make sure you can answer:
   - A new version of an app that already exists, but is significantly different (compare/contrast MySpace to FaceBook)
   - Other (make sure you can clearly explain, if it is other)
 
-Now that you've gotten an idea that you are interested in building out, you would take the time to make user stories, wireframes and ERDs. It's ok if you don't remember what these are or perhaps have not done them yet. We will go over them in a later lesson.
+Now that you've gotten an idea that you are interested in building out, you would take the time to make user stories, wireframes and ERDs. It's ok if you don't remember what these are or perhaps have learned about them yet. We will go over them in a later lesson.
 
 ### An Example
 
