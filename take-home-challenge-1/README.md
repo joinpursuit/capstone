@@ -121,8 +121,14 @@ You should build your app in this order:
 - Get clarifications
 - Plan
 - Build a simple hello world app and make sure all your configuration is set up (git/github, database, deployment etc)
+- Create a README.md with clear steps on how to get your app up and running
 - Make sure you build the most basic version of the app
 - Polish the basic version
+- Add a small write-up in the readme about the project
+  - Design decisions
+  - Examples
+  - Potential improvements
+  - [An example of a write up](https://youtu.be/DU0LAeq0Uc8?t=379)
 - If you have time, try adding even more polish or a challenge recommended in the take-home assignment
 - Submit it on time/early
 

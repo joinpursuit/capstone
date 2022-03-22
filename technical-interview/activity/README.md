@@ -1,5 +1,16 @@
 # Technical Interview Activity
 
+## Do a Peer to Peer Mock Interview
+
+Earlier, you were assigned to group A or B
+
+Find a question to ask a peer from the opposite group in order to simulate a real world environment where you have likely not seen the question before
+
+- [Group A](https://github.com/joinpursuit/peer-mi-group-a)
+- [Group B](https://github.com/joinpursuit/peer-mi-group-b)
+
+## Rate your peer on the following criteria
+
 1. Understanding the Prompt
 
    - Asks clarifying questions
@@ -26,3 +37,7 @@
    - Uses sufficient vocal volume
    - Maintains positive tone and body language throughout
    - Utilizes all available whiteboard space, or includes ample comments if coding remotely
+
+## Give Feedback Based on Criteria
+
+Using the above rubric, give feedback to your peer that you interviewed.
