@@ -1,7 +1,5 @@
 # Take Home Challenge 1 Activity
 
-provide link to private repo.
+[Link to take-home assignment](tbd)
 
-Add students to private repo.
-
-Do not allow students to review activity ahead of time to better simulate the timeline/experience of an actual take home challenge
+You will not have access to the above assignment until your instructor grants you access. This is to help ensure you have the experience of a limited amount of time to complete a project you've never seen before
