@@ -12,6 +12,8 @@ Watch this [Amazon Coding Sample Video](https://www.youtube.com/watch?v=mjZpZ_wc
 
 Take general notes on pointers, then take some time to write down what you do similarity and what you think you do well and what you need improvement working on.
 
+Be ready to work on the things you have identified for your next mock interview.
+
 ## Coping with Feelings
 
 Doing a technical interview can feel very anxiety-inducing, but you can do some things to help you prepare to manage your anxiety.

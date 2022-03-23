@@ -10,7 +10,7 @@ It may be tempting to think about what you know how to do and then build an app 
 
 Once you have fundamentals, your role as a developer will (always) be to learn what you need in order fulfill a vision. A career as a developer is one of life-long learning. Learning how to learn and learning how you learn best on your own will be a key part of this module.
 
-> It's been really interesting because there have been some things that when I dreamed it up, I wasn't technically good enough to figure out how to implement (animating svg paths on scroll, for example), I dreamed that up a year before I actually was able to implement it). But as time went and I worked on other things for fun, I would eventually learn enough to implement it.
+> It's been really interesting because there have been some things that when I dreamed it up, I wasn't technically good enough to figure out how to implement (animating svg paths on scroll, for example, I dreamed that up a year before I actually was able to implement it). But as time went and I worked on other things for fun, I would eventually learn enough to implement it.
 
 - Shirley Wu
 
@@ -73,7 +73,7 @@ The tech you will be building for your capstone will have some sort of user-inte
 
 ### Observation
 
-Take some time to think about your everyday life that could be improved, simplified or more enjoyable. Perhaps you've had conversations with friends or family about certain products, their features (good or bad).
+Take some time to think about your everyday life that could be improved, simplified, or more enjoyable. Perhaps you've had conversations with friends or family about certain products, their features (good or bad).
 
 Perhaps you have some interests, like deep sea fishing. Although you don't intend to go deep sea fishing, you like to read about it and watch programs about it. Perhaps there are problems that the deep sea fisherman have that you can think of a way to assist with.
 
@@ -83,7 +83,7 @@ Be sure to capture as many of these ideas as possible, no matter how small, whet
 
 Not every product is going to be made for everyone. There are specialized baby products that many adults have no use for. The needs of a young couple is different than that of an old person living on their own.
 
-And perhaps the problem that you identified that was most interesting to you was not something for you. Perhaps, you are not fond of dogs but, your friend has a dog walking business and they have trouble figuring out how to best schedule their time. Perhaps, you don't have a lawn yourself, but you saw a news report that 70% of lawnmower owners forget to service their machines on a regular schedule.
+And perhaps the problem that you identified that was most interesting to you was not something for you. Perhaps, you are not fond of dogs but, your friend has a dog walking business and they have trouble figuring out how to best schedule their time. Perhaps, you don't have a lawnmower yourself, but you saw a news report that 70% of lawnmower owners forget to service their machines on a regular schedule.
 
 Once you have your initial set of ideas from observation, think about who would benefit from your idea. You should now be able to narrow all the ideas you had into a smaller number of ideas that have greater potential to become a business idea.
 
@@ -107,9 +107,9 @@ A real world example is eBay. When eBay first started people were in charge of p
 
 ![Visual of MVP using candle, lantern and lightbulb ](./assets/what-is-a-minimum-viable-product.jpeg)
 
-When you plan for Capstone, your instructor will help you narrow down your idea to something that is possible to build within the time-frame you have.
+[Image reference](https://clevertap.com/blog/minimum-viable-product/)
 
-[Image from](https://clevertap.com/blog/minimum-viable-product/)
+When you plan for capstone, your instructor will help you narrow down your idea to something that is possible to build within the time-frame you have.
 
 ### Plan Your Design
 
@@ -119,7 +119,7 @@ Before beginning a project make sure you can answer:
 
 - A brief summary of the idea
 - Which industry does this app belong to?
-- Who is this product for (customer persona)
+- Who is this product for (customer persona)?
 - What problem does it solve?
 - Why is this problem important?
 - What are the customers doing to currently solve the problem?
@@ -128,7 +128,7 @@ Before beginning a project make sure you can answer:
 - What are the expected outcomes?
 - Will this app be
   - A totally new idea (e.g. solves a problem for people living on Mars)
-  - An extension/new feature of an existing product/app (Uber does [last-mile](## Inspiration) deliveries for prescriptions)
+  - An extension/new feature of an existing product/app (Uber does [last-mile](<https://en.wikipedia.org/wiki/Last_mile_(transportation)>) deliveries for prescriptions)
   - A new version of an app that already exists, but is significantly different (compare/contrast MySpace to FaceBook)
   - Other (make sure you can clearly explain, if it is other)
 
@@ -136,9 +136,9 @@ Now that you've gotten an idea that you are interested in building out, you woul
 
 ### An Example
 
-Idea: There is a new food craze: soup for lunch. Unfortunately, canned soup isn't very good, buying soup from a restaurant every day is too expensive and many people are too busy to figure out how to make their own soup. Most people need help with getting simple recipes they could make and start enjoying soup!
+Idea: There is a new food craze: soup for lunch. Unfortunately, canned soup doesn't have a lot of variety, buying soup from a restaurant every day is too expensive and many people are too busy to figure out how to make their own soup. Most people need help with getting simple recipes they could make and start enjoying soup!
 
-- The industry this belongs to is: Service
+- The industry this belongs to is: service
 - This product is mostly for busy individuals who work somewhere where there is a microwave that they can heat up their lunch
 - This solves the problem of helping people make their own soup
 - People want to eat better and soup is a healthy choice. Helping make soup become easier to make will help people eat better
@@ -152,7 +152,7 @@ Idea: There is a new food craze: soup for lunch. Unfortunately, canned soup isn'
 
 Typically, before hiring a team of people and having them spend hundreds or thousands of hours building something, extensive research would be done. This is a separate field from software engineering.
 
-For Capstone, you will just use your own experiences to be the driver of building your idea.
+For capstone, you will just use your own experiences to be the driver of building your idea.
 
 ## Further Reading
 

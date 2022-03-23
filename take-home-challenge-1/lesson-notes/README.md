@@ -14,7 +14,17 @@
 - If you want your app to stand out, what are the best things you can do?
 - What are some challenges you've faced with previous labs/assignments and how can you learn from those challenges?
 
-## In class activity
+## In class activities
+
+## Activity A
+
+**Prompt:** Build a weather app using the [Open Weather API](https://openweathermap.org/api). Submit within 3 days of receipt of this prompt by providing a zip file.
+
+Type out over slack sample email text you would submit to an an interviewer about 1-2 clarifications about what is required.
+
+Discuss as a class
+
+## Activity B
 
 Everyone should read the take-home challenge prompt.
 
