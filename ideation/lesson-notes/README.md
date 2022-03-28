@@ -35,3 +35,16 @@ Write down the following questions
 - How does this product compare to the alternatives?
 
 Submit your answer to the class slack, so that everyone gets a chance to share their work. Choose 1-2 groups to discuss their case study.
+
+Recommended Apps/Companies
+
+- Slack
+- Etsy
+- eBay
+- Google docs
+- Reddit
+- Netflix
+- Spotify
+- GitHub
+- Shopify
+- Canvas

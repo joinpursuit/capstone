@@ -128,6 +128,7 @@ There are many ways to handle conflicts, but here are some dos and don'ts to get
 - Try to resolve the conflict yourself/within the team first
 - Try to be empathetic
 - Listen before giving advice
+- Reach out to an instructor if you can't resolve something on your own or if the issue is bigger than what your group can solve. Remember, your instructor wants to help you succeed and is here to support you.
 
 ## Checklist
 

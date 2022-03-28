@@ -182,3 +182,9 @@ For trait demonstration, use the following list and make sure you have enough st
 - Problem solving
 - Adaptability
 - Leadership
+
+<!-- ## Resources -->
+<!-- not sure what our permission is to continue to share this with fellows -->
+<!-- but wanted to share an attribution -->
+
+<!-- - [Guest Speaker Deck at Pursuit](https://drive.google.com/file/d/1FeD_f7orHwYguVkN4m6SuXerR9Bsbhfv/view?usp=sharing) -->
