@@ -16,7 +16,7 @@ Take home challenges often have an estimated time for completion. This time is u
 
 ## Ending an Interview Process
 
-You have the right to decline a take home challenge if the challenge is very unreasonable. For example you can dec;ome if it is expected to take 2 weeks of full-time work, if the company expects you to pay money to take some sort of test, or if the take-home is on cyber security and that is not your interest or doesn't match the job description. In the unlikely situation this occurs, politely tell them you are not interested in continuing and then the interview process will be over.
+You have the right to decline a take home challenge if the challenge is very unreasonable. For example you can decline if it is expected to take 2 weeks of full-time work, if the company expects you to pay money to take some sort of test, or if the take-home is on cyber security and that is not your interest or doesn't match the job description. In the unlikely situation this occurs, politely tell them you are not interested in continuing and then the interview process will be over.
 
 Remember, the interview process goes both ways. Not only are they interviewing you to be a good fit, you are interviewing them to see if you would fit in with them. Walking away from an interview can be a tough choice, but you must set your best interests first.
 
@@ -46,11 +46,11 @@ For example, imagine you are asked to build an interactive weather application b
 
 ### Plan
 
-Depending on the time available to you, you may want to create wireframes or user stories. These are assets that you can share as part of your completed take home challenge.
+Depending on tasked required of you, you may want to create wireframes or user stories. These are assets that you can share as part of your completed take home challenge.
 
 Don't plan or add extra features before completing the required functionality. It may feel exciting to add Google maps, but if it is not asked for, do not do it unless the required work is complete.
 
-Figure out the order of what you are going to build and then estimate the time you think it should take.
+Figure out the order of what you are going to build and then estimate the time you think each portion should take. This will help make sure you manage your time better.
 
 ### Build a Hello World App
 
@@ -63,7 +63,7 @@ This is even more important if you are working with a language or tech you are l
   - Create a `README.md` and write down the instructions on how to get your app up and running. Reference a lab or project with good instructions to help guide you.
   - Steps like running `npm i` should not be taken for granted, write out each step required, like a very simple recipe to follow.
   - If a `.env` file is required, be sure to include steps for that and what the environmental variables should be.
-- If it is supposed to be deployed, make sure to include a link to your deployed application as specified.
+- If it is supposed to be deployed, make sure to include a link to your deployed application, as specified.
 - Follow all submission instructions carefully, making sure to send over the project in whatever format the company determines.
 
 Do not forget to `git add` and `git commit` once the basic app is working. Be sure to write descriptive commit messages.
@@ -78,14 +78,14 @@ You should build your app in this order:
 
 1. Improve your code quality.
 
-  - Go back and proofread your code and make sure you fix indentation
-  - Improve your comments, improve your variable names etc.,
-  - Use the same version of syntax (if you use `const`/`let`, don't sometimes use `var`, declare your functions in the same way (unless you have a specific reason not to in a couple places) etc.))
-  - _Note:_ If you struggle with indentation and consistent code formatting, consider installing a linter/code formatter like `prettier`, adjust the settings so that it will automatically format your code for you on save. 
+- Go back and proofread your code and make sure you fix indentation
+- Improve your comments, improve your variable names etc.,
+- Use the same version of syntax (if you use `const`/`let`, don't sometimes use `var`, declare your functions in the same way (unless you have a specific reason not to in a couple places) etc.))
+- _Note:_ If you struggle with indentation and consistent code formatting, consider installing a linter/code formatter like `prettier`, adjust the settings so that it will automatically format your code for you on save.
 
 1. Improve the look of your application by styling your application to look like a professional website.
 
-  - _Note:_ If this is a front-end focused challenge that comes with a specific mockup to match, be sure to spend more time matching the mock-up. Be sure to use the provided fonts and colors and any other provided specifications.
+- _Note:_ If this is a front-end focused challenge that comes with a specific mockup to match, be sure to spend more time matching the mock-up. Be sure to use the provided fonts and colors and any other provided specifications.
 
 1. Improve the overall functionality of the application. This could include handling edge cases or gracefully handling errors.
 
@@ -96,27 +96,32 @@ You should build your app in this order:
 ### Common Mistakes
 
 - Not managing your time well and scope creep
+
   - Make sure you stick to your plan. If you are going over time, try to understand if it is because you are stuck or if you are trying to do too much.
-  - Maybe you thought you would add a cool CSS animation that was not asked for, and suddenly you have spent 3 hours trying to get it to work.
+  - Maybe you thought you would add a cool CSS animation that was not asked for, and suddenly you have spent 3 hours trying to get it to work. Go back to the basic button so you can focus on the main goals of the task.
 
 - Don't try to learn too many things at once
+
   - If the app is supposed to be built in React, this is not the time to experiment with redux, mobx, graphql, and formik all voluntarily at the same time. Stick to what you know, at least until you complete the basic requirements for the application.
 
 - Make too many assumptions
+
   - If you are not sure, ask!
   - Try to be sure you understand the challenge and ask for clarity as soon as you can. However, if you've missed something, you can always send a follow up email to clarify.
 
 - Being too creative with your code
+
   - Avoid your own unique code formatting.
   - Avoid building a mobile app when you were asked to build something in the browser.
   - Avoid using an obscure new technology that no one has heard of. Stick to the mainstream tools, libraries, and techniques.
 
 - Copying code
+
   - There are many tutorials out there that may show you how to build a weather app or similar to the project you are building.
   - Never submit a tutorial.
   - You can use a tutorial to learn things but then you should close the tutorial and code examples before building your own version.
   - If you get caught using someone else's code, the interview will be over.
-  - If you submit something above your skill level and get the job you will not last long at the job.
+  - If you submit something above your skill level and get the job, you will not last long at the job.
   - If you end up using a small piece of code from Stack Overflow, make sure you can explain it. Or, rewrite the code in away that you understand.
 
 - Coding without preparation/planning
@@ -140,5 +145,3 @@ You should build your app in this order:
 - Submit it on time/early
 
 - [The Essential Guide to Take-home Coding Challenges](https://www.freecodecamp.org/news/the-essential-guide-to-take-home-coding-challenges-a0e746220dd7/) - **CAUTION** links inside this document for `Ultimate Guide` seem to be broken/ reroute to advertisements (Spring 2022)
-
-- [How to Pass a Take-Home Coding Test]
