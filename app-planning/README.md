@@ -173,3 +173,4 @@ If you have further interest in developing your knowledge and skills on a partic
 - [Use stories with Examples and a Template](https://www.atlassian.com/agile/project-management/user-stories)
 - [User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)
 - [Creating Wireframes Walk-through Video](https://youtu.be/qpH7-KFWZRI)
+- [What is an Entity Relationship Diagram](https://www.lucidchart.com/pages/er-diagrams)
