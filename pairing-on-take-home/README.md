@@ -2,95 +2,171 @@
 
 ## Why a Pairing Activity?
 
-Interviewers are interested in how you work with others. Do you collaborate well? Do you take feedback well? Are you adaptable/open to the style of coding at their company?
+Interviewers are interested in how you work with others. Do you collaborate well? Do you take feedback well? Are you adaptable and open to the style of coding at their company?
 
 One way they can check for this is by giving a practical activity such as going over your take home challenge and then asking you to collaborate with someone to add a feature or update your code based on a code review.
 
-When asked to pair, the goal isn't to impress the person with your coding skills silently, rather, it is to actively collaborate and incorporate ideas/suggestions/code from the person you are paired with.
+When asked to pair, the goal isn't to impress the person with your coding skills silently. Rather, it is to actively collaborate and incorporate ideas, suggestions, and code from the person you are paired with. Additionally, employers are looking to see how you approach a problem as well as how you communicate about code.
 
-## General Coding Design Abilities
+## How to approach pairing
 
-Coding design has to do with following some good principles like, clean code, YAGNI, DRY and KISS
+On a take home, you will typically be the person in the "driver's seat" when it comes to pairing. This means you'll be making the decisions of how to move forward on implementing a feature.
 
-Let's review these principles, so that as you talk through your code you can help identify some of the design choices you are making
+It's best to approach pairing in the same way you would approach a technical problem: identify the problem, make a plan, implement the code, and then reflect back.
+
+### Identify the problem
+
+First, you will want to make sure that you understand the problem you are being asked to solve or the feature you are being asked to add. For example, if you are being asked to add a signup form to a page, you will want to gain clarity around the design and any required features. Before you start coding, you should feel confident that you know what it is you're attempting to build.
+
+### Make a plan
+
+Before coding, it's useful to think through what exactly it is you're going to do. This could look like talking through the implementation with your pairing partner before starting, writing pseudocode to outline your potential code solution, or doing both. Making a plan _before_ you start coding will be helpful in making sure you've thought through everything. It also provides an opportunity for your partner to make suggestions or correct any misconceptions you may have.
+
+### Implement your code
+
+Now is the time for you to actually write some code. During this phase, you will likely be doing most of the typing. However, as best as you can, talk through what you're doing so that your partner can follow along.
+
+One of the benefits of doing a take home challenge is that you're often not required to have memorized every bit of syntax. If you get stuck or can't remember how to do something, feel free to ask your partner. In a real pairing situation, your partner should be willing to look up syntax and point out any small mistakes that could cause problems.
+
+### Reflect back
+
+Once the problem is solved or the feature has been implemented, it's time to reflect back on what you just solved. Depending on the type of challenge, you may be asked to just reflect on what could be improved or you may be tasked with refactoring your code. Either way, this is an opportunity to highlight your skill at improving code to be more readable as opposed to just getting it to work.
+
+## Ways to improve your code
+
+Coding design has to do with following some good principles like writing clean and clear code, "YAGNI", "DRY" and "KISS."
+
+Let's review these principles, so that as you talk through your code you can help identify some of the design choices you are making.
 
 ### Clean Code
 
-Clean code usually refers to
+Writing clean code usually refers to your ability to do the following:
 
-- Good naming of variables and functions
-- Avoiding writing unnecessary comments to clarify code that could have been written more clearly
+- Name variables and functions in a way that express intent and improves clarity
+- Write and structure your code so that it requires as few comments as possible to understand
+
+For example, take a look at the following function which adds two numbers togethers.
 
 ```js
 // This function adds two numbers together and returns the value
 const x = (y, z) => z + y;
 ```
 
+The above function is _concise_ but lacks clarity. The function name (i.e. `x`) tells us nothing about what the function is. The comment is needed because variables `y` and `z` don't give any indication as to the data type that is expected. And, the order of parameters and how those parameters are used are flipped.
+
+Contrast the above function with the following:
+
 ```js
-const addTwoNums = (num1, num2) => {
-  return num1 + num2;
-};
+const addTwoNums = (num1, num2) => num1 + num2;
 ```
 
-- Write readable code
+This function is much better. The name of the function describes its purpose and the parameters names give some indication as to how it should be used. This code is still concise but is much more clear.
 
-While the following code is short, how long does it take to understand what it is doing?
-
-```js
-someVal ? (anotheVal ? 0 : someVal && !!inputQ) : 1;
-```
-
-This code is still a bit convoluted/unclear and could be written in a more simple and clearer way. But it's easier to understand than the one line code
+For longer snippets of code, it's possible that the code will be difficult to read not because of poorly named variables but because of the unclear intentions behind the code. For example, take a look at the following code below which will increase a value stored in an object by a certain percentage.
 
 ```js
-if (someVal) {
-  if (anotherVal) {
-    return 0;
+function increasePrice (product = {}, percentageIncrease = 0) {
+  if (product.priceInCents && product.priceInCents > 0) {
+    if (percentageIncrease >= 1) {
+      throw "percentageIncrease must be between 0 and 1.";
+    }
+    if (percentageIncrease < 0) {
+      throw "percentageIncrease must be between 0 and 1.";
+    }
+    
+    product.priceInCents *= (1 + percentageIncrease);
   } else {
-    return someVal && inputQ === false;
+    throw "priceInCents is missing or formatted incorrectly.";
   }
-} else {
-  return 1;
 }
 ```
 
-[Here is a video example: Cleaner IF statements// Clean Code](https://www.youtube.com/watch?v=2QWMrEHoMFA)
+This function performs a lot of error handling to make sure the values entered are properly set. While necessary, these checks obscur the true purpose of the function which is simply to increase the `priceInCents` key-value pair.
 
-- Keeping the code as simple as possible
+There are a few approaches you could take to improve the readability of this code. One might be to use guard clauses at the beginning of the function. A guard clause stops the execution of some code early on so that the rest of the function doesn't run. In addition to at times being more performant, it also has the added benefit of improving deeply nested code.
 
-- Keep your project well-organized. Follow conventions for files, file names, folder structure and folder names. If there is a lot of variability within the tech stack, be consistent within your project
+```js
+function increasePrice (product = {}, percentageIncrease = 0) {
+  if (!product.priceInCents || product.priceInCents < 0) {
+    throw "priceInCents is missing or formatted incorrectly.";
+  }
+  if (percentageIncrease >= 1) {
+    throw "percentageIncrease must be between 0 and 1.";
+  }
+  if (percentageIncrease < 0) {
+    throw "percentageIncrease must be between 0 and 1.";
+  }
+    
+  product.priceInCents *= (1 + percentageIncrease);
+}
+```
 
-### YAGNI
+These changes improve the overall clarity of the function by moving all of the error checking to the front of the function. Even more can be improved by removing some duplicate code.
 
-[You aren't gonna need it](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) - stay focused on the required features. Don't try to set up your code to add eventual features that are not planned. Don't try to add extra features that are not required. Keep the code simple
+```js
+function increasePrice (product = {}, percentageIncrease = 0) {
+  if (!product.priceInCents || product.priceInCents < 0) {
+    throw "priceInCents is missing or formatted incorrectly.";
+  }
+  if (percentageIncrease >= 1 || percentageIncrease < 0) {
+    throw "percentageIncrease must be between 0 and 1.";
+  }
+    
+  product.priceInCents *= (1 + percentageIncrease);
+}
+```
 
-### DRY
+The code above is certainly an improvement from the original code. However, you could reorganize your code even further by using helper functions.
 
-[Don't Repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+```js
+const validateProductPrice = (price) => {
+  if (!price || price < 0) {
+    throw "priceInCents is missing or formatted incorrectly.";
+  }
+}
 
-If you find a solution for what you are working on is to write similar code over and over again, take a moment to see if you can convert it into a function and/or a loop
+const validatePercentage = (percentage) => {
+  if (percentage >= 1 || percentage < 0) {
+    throw "percentageIncrease must be between 0 and 1.";
+  }
+}
 
-### Kiss
+function increasePrice (product = {}, percentageIncrease = 0) {
+  validateProductPrice(product.priceInCents);
+  validatePercentage(percentageIncrease);
+  product.priceInCents *= (1 + percentageIncrease);
+}
+```
 
-[Keep it Simple](https://en.wikipedia.org/wiki/KISS_principle)
+This code uses helper functions to encapsulate the various error checking. Those helper functions are then used inside of the original function.
 
-Being able to write things in a simple and clear way demonstrates more skill and depth of knowledge than writing a long convoluted or confusing answer. It also makes the code more readable and maintainable.
+In this specific situation, building helper functions may not be necessary. However, if those validation functions could be used again, this could be a great way to clean up the code.
 
-## Getting Started
+For more on cleaning up `if` statements, you may want to view the following video:
 
-Coding should never be the first thing you do.
+- [Cleaner IF statements// Clean Code](https://www.youtube.com/watch?v=2QWMrEHoMFA)
 
-Always take some time to clarify the prompt, clarify what you are doing, make sure you understand how you will be working together and anything else needed to form a productive collaboration.
+### Acronyms
 
-## Continue Planning
+There are a few key acronyms that are helpful to keep in mind as you refactor or improve your code.
 
-Think about breaking the problem down into multiple steps and then make a plan for the order to tackle the steps. Be sure to communicate this with your partner. E.g. "First, I am going to build the route, then I will build the database query"
+#### YAGNI
 
-## Start Coding
+This acronym stands for "[You aren't gonna need it](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)."
 
-Be sure to engage your partner. If you start writing a `for` loop, but your partner recommends a `for in` loop, talk through it and try to incorporate their idea, if you are getting stuck, talk it through.
+This saying is trying to convey that it is important to stay focused on the required features as opposed to setting up your code for features that may exist in the future.
 
-Be mindful of your variable names, code organization and all the other best coding practices you've been learning. It's ok to slow down and do things right.
+#### DRY
+
+This acronym stands for "[Don't Repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)."
+
+The intention behind this saying is that you should look for code that is repeated and, wherever possible, remove it.
+
+#### Kiss
+
+This acronym stands for "[Keep it Simple](https://en.wikipedia.org/wiki/KISS_principle)."
+
+The intention behind this saying is to prioritize simplicity over complexity when solving a problem. Being able to write things in a simple and clear way demonstrates more skill and depth of knowledge than writing a convoluted or confusing answer. It also makes the code more readable and maintainable.
 
 ## Resources
 
