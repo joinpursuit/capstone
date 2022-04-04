@@ -8,7 +8,7 @@
 
 ## Part 2
 
-App Building, continuous adaptation and learning
+[App Building, continuous adaptation and learning](./part-2.md)
 
 ## Part 3
 
