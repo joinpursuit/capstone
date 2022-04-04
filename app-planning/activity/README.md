@@ -11,3 +11,5 @@ Think back to the [Veterinarian API](https://github.com/joinpursuit/resource-vet
 - Create 2 wireframes for 2 different views
 
 - Create ERDs for the app, which, at minimum, should include: pets, owners, employees. Don't forget to use lines and symbols to denote their relationship to each other.
+
+At the end of lab, get together with your instructors and classmates and go over how it went. How did it go? What were the challenges?
