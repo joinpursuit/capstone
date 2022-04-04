@@ -1,18 +1,13 @@
 # Activity
 
-Your instructor will deicide if you will do more practice app planning with [this activity](https://github.com/joinpursuit/api-planning-lab) or if you should join your capstone group and continue planning your app.
+Your instructor will deicide if you will do more practice app planning with [this activity](https://github.com/joinpursuit/api-planning-lab) or if you should go to the next activity
 
-## Keep Working on the Checklist
+## Planning a simple app
 
-- [ ] Pick an app idea
-- [ ] Choose an app name (can be changed later)
-- [ ] Write a 2-3 sentence summary of the app idea
-- [ ] 5 minute check-in with instructor
-- [ ] Read and discuss Working in Groups
-- [ ] Create group norms (a document you will share with your team and instructor)
-- [ ] Learned everyone's work hours
-- [ ] Discuss best methods of communication
-- [ ] Determine initial work cadence (can be changed later)
-- [ ] Create user stories
-- [ ] Create wireframes
-- [ ] Create ERDs
+Think back to the [Veterinarian API](https://github.com/joinpursuit/resource-veterinarian-api) - use this app description as a reference to plan a new version of this app.
+
+- Write out user stories and then put them into a new Trello board (you can delete this board once it has been graded)
+
+- Create 2 wireframes for 2 different views
+
+- Create ERDs for the app, which, at minimum, should include: pets, owners, employees. Don't forget to use lines and symbols to denote their relationship to each other.

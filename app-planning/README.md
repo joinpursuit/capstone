@@ -6,7 +6,7 @@ This pre-reading will go over three different planning activities
 - Wireframes
 - ERDs (Entity Relationship Diagrams)
 
-**Note:** If you learn new concepts better visually, here are two videos to introduce these topics.
+**Note:** Since there are a few new concepts that are quite visual, here are some (optional) videos to introduce these topics.
 
 **Second note:** Both of these videos are associated with specific tools. You do not need to use these tools, or sign up for these tools in order to watch the videos.
 
@@ -19,7 +19,7 @@ In this program, so far, you've been building apps for yourself. The apps focus 
 
 To build applications that are for users, there is some upfront, non-coding work required.
 
-Think about the apps you enjoy using they are probably
+Think about the apps you enjoy using, they are probably
 
 - Easy to navigate
 - Make it easy for you to do what you want to do on them
@@ -51,6 +51,54 @@ Let's look at a few examples:
 
 From the lens of the user, it is clear what you can do. From a developer's perspective, it is clear what kind of features need to be built, from a business perspective it is clear what this feature solves. User stories end up being a really clear and easy tool for cross-team discussions.
 
+## Trello
+
+You will be using [Trello](https://trello.com/). Trello is an app that helps organize the work of big projects. Trello is made up of lists and cards. Cards should primarily be used to put individual user stories.
+
+You will work with 5 lists:
+
+- Design
+  - This is where you should attach links to your Wireframes, ERDs and your brief description of your app - that way everyone can easily find these assets. Later, you'll put these details/assets in the README.md of your app
+- Backlog
+  - Start by putting all your user stories here. This is a great way to help organize what features are part of MVP (Minimum Viable Product) and what are bonus/stretch features.
+- To-Do
+  - These are the user stories (features) you are currently building.
+- Doing
+  - These are the user stories you/your team is currently (actively working on).
+- Done
+
+  - These are the completed user stories.
+
+  ![Trello Board](./assets/trello-board.png)
+
+  [Getting Started with Trello Docs](https://trello.com/guide)
+
+  [How to get started with Trello Video](https://www.youtube.com/watch?v=xky48zyL9iA)
+
+## User Stories => Trello Cards
+
+Convert your user stories into Trello cards. You'll likely need to revise and refine your user stories. This is a normal part of the process.
+
+**Acceptable User Stories/Cards**
+
+- Create a landing page
+- Get a list of grocery items (JSON, API call)
+- A grocery item can be edited by the user through a form
+
+These are specific features that should be easy to check whether the functionality is there or not. They are also small features that are possible to build withing a short period of time.
+
+**User Stories/Cards that Need Improvement**
+
+- Users
+- Full CRUD on grocery items
+- Submit button for Edit one grocery item
+
+The first one is too vague. What does users mean? What kind of functionality? What does a successful implementation look like?
+
+The second one is also vague - is that the front-end? Back-end? Both? How many user stories are in this one card? If this is front and back-end is this a reasonable amount of work for a short period of time?
+
+The final one is too small a task and the feature functionality is unclear. Creating a button is very small and simple. Also, does it imply the ability to edit an item?
+
 ### Wireframes
 
 Wireframes are a simple sketch of your app, usually done on paper or with an app. The wireframe lays out the different components and gives their approximate size and location.
@@ -59,13 +107,13 @@ The wireframes lets all stakeholders to agree on where the information will be p
 
 Additionally, if you have thought back to previous projects, if you just started building your app before planning, you may have realized you didn't like how you had laid things out and when you went to refactor, it ended up taking a lot of time.
 
-Typically a UX/UI (user experience, user interface) designer would create these wireframes. However, your team will create them for your app for capstone.
+Typically a UX/UI (user experience, user interface) designer would create these wireframes. However, you will create your own for your apps now.
 
 Each page of your app should have a wireframe. You can plan your app a little further by also associating a route with each view, for example, for the example below, you may want to note that that is the view available at `/groceries`
 
 There are roughly three levels of wireframe
 
-- Low fidelity - these are just a black and white sketch with almost no details
+- Low fidelity - these are just a black and white sketch with almost no details (see below)
 - Medium fidelity - these have more details, including styling and colors
 - Mockup - this is a full-fledged design with many specific details.
 
@@ -88,7 +136,7 @@ What happens when the user presses the add item button?
 - Does the form replace the title and button and on submit revert back?
 - Where does the new item appear? At the top of the list or the bottom? Or are things always sorted in a specific way?
 
-You and your team have a lot of design decisions like this to make. Again, it is best to figure them out before coding is started.
+You have a lot of design decisions like this to make. Again, it is best to figure them out before coding is started.
 
 Finally, it is fairly typical to start with a mobile view first.
 
@@ -130,7 +178,7 @@ We can imagine that there are two types of people at a school - students and pro
 
 ### Entity Relationships
 
-One thing you may have noticed is that there are line between the entities and some other figures (arrow, numbers).
+One thing you may have noticed is that there are lines between the entities and some other figures (arrow, numbers).
 
 These represent the relationships between the entities.
 

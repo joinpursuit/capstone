@@ -6,7 +6,7 @@ There is a separate discipline of project management that can take a lot of stud
 
 We're going to learn some basics about project management to assist you with your capstone project.
 
-If we look at the diagram below, we have already begun the planning phase. Let's complete what we need to learn for planning and then learn about about the other phases and how we'll apply them to the capstone project.
+In the diagram below, planning is the first step. You've been introduced to user stories, wireframes and ERDs, which are all part of a planning phase. Let's complete what we need to learn for planning and then learn about about the other phases and how we'll apply them to the capstone project.
 
 ![Agile Sprint Cycle](./assets/agile-sprint-cycle.png)
 
@@ -18,28 +18,29 @@ Building software comes with unique challenges, in particular: Continuous learni
 
 A lot of old management styles were not working for software development. Therefore, a new way of management came about that was called Agile in the early 2000s. Since then several variations have been created and each company will have their own systems, but generally, there are a few core principals that are always present.
 
-[There are 12 core principles in the Agile Manifesto](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
+[Here are the core principles in the Agile Manifesto](https://agilemanifesto.org) and [The Twelve Principles of Agile Software](https://agilemanifesto.org/principles.html)
 
-Let's adapt and focus on a few of these for capstone:
+Let's see how these principles can impact how projects are built. Let's focus, in particular, how you can use them for your capstone project:
+
+- Meet with your group often and talk things through
+- Projects require motivated individuals that are supported and trusted
+
+  - Regular reflection and fine-tuning adapting behavior
+  - Working on software and working on teams is hard. Each team will have a unique skill set and a unique work dynamic. Learning to work with your team takes time and effort. Keep adapting to make the most of your team's skills and abilities.
 
 - Early and continuous delivery of software (MVP)
   - Plan your app well enough that you deliver MVP as soon as possible
 - Welcome changing requirements
   - As you build, different features may become unimportant and other features may end up becoming critical. Be open to adapting when needed
 - Frequent delivery of working software
+
   - Rather than aiming for a large "complete" project on the final day of capstone, every day/week new working (small) features should be delivered by every teammate
-- Projects require motivated individuals that are supported and trusted
-  - Give each other the support and take time to build trust so that everyone can do their best every day
-- The best way to convey information is face to face
-  - Check in over zoom or in person\*
-- Working software is the primary measure of progress
   - Take a moment to celebrate each victory and recognize your progress. There is always more to do, but don't let that take away from your team's progress.
+
 - Sustainable progress, new features should be able to be added indefinitely
   - It should be possible to keep adding new features to your app. A new feature should not require a full rewrite of the app. Use best practices that you've learned in class to keep this possibility open. This will likely be one of the hardest thing to do as a team, it takes practice and a lot of learning from mistakes
 - Maximizing the work not done is essential
   - Everyone wants to do a great job. It can feel like saying "yes" to all the ideas is the way to achieve greatness. But focusing on the the most critical features and learning to say "no" to distractions will help you build each component really well and give you a strong foundation to build on top of, if/when the time comes.
-- Regular reflection and fine-tuning adapting behavior
-  - Working on software and working on teams is hard. Each team will have a unique skill set and a unique work dynamic. Learning to work with your team takes time and effort. Keep adapting to make the most of your team's skills and abilities.
 
 Zoom best practices:
 
@@ -47,52 +48,13 @@ Zoom best practices:
 - Keep the meetings short and on point
 - But also, take a moment to check-in on how everyone is feeling/doing
 
-## Planning
-
-You should have already begun planning your app. Now it's time to formalize your planning.
-
-## Trello
-
-You will be using Trello. Trello is an app that helps organize the work of teams. Trello is made up of lists and cards. Cards should primarily be used to put individual user stories.
+## Sprints
 
 You will work in several sprints over the next few weeks. A sprint is a process of planning the work for a short period of time. At the end of each sprint, you will look at the work completed and the work not completed and make a new sprint (plan) that adapts to where your team and app is at.
 
-You will work with 5 lists
+Every company does sprints differently. Even within Agile there are a few variations.
 
-- Design
-  - This is where you should attach links to your Wireframes, ERDs and your brief description of your app - that way everyone can easily find these assets. Later, you'll put these details/assets in the README.md of your app
-- Backlog
-  - Start by putting all your user stories here
-- To-Do
-  - These are the user stories (features) your team will be building during the current sprint. These are agreed on by the entire team during planning.
-- Doing
-  - These are the user stories your team is currently (actively working on).
-- Done
-  - These are the completed user stories.
-
-## User Stories => Trello Cards
-
-Convert your user stories into Trello cards. You'll likely need to revise and refine your user stories. This is a normal part of the process.
-
-**Acceptable User Stories/Cards**
-
-- Create a landing page
-- Get a list of grocery items (JSON, API call)
-- A grocery item can be edited by the user through a form
-
-These are specific features that should be easy to check whether the functionality is there or not. They are also small features that are possible to build withing a short period of time.
-
-**User Stories/Cards that Need Improvement**
-
-- Users
-- Full CRUD on grocery items
-- Submit button for Edit one grocery item
-
-The first one is too vague. What does users mean? What kind of functionality? What does a successful implementation look like?
-
-The second one is also vague - is that the front-end? Back-end? Both? How many user stories are in this one card? If this is front and back-end is this a reasonable amount of work for a short period of time?
-
-The final one is too small a task and the feature functionality is unclear. Creating a button is very small and simple. Also, does it imply the ability to edit an item?
+For class, your sprints will be about once a week. You will also be combining reviews (see below) and sprints. Often, these are held as separate sessions.
 
 ## Check-ins
 
@@ -106,11 +68,11 @@ Typically, the following questions are asked:
 
 If there is a bigger issue to discuss ("I don't think we should build x feature any more, we should do y") - set a separate meeting time.
 
-If someone is blocked because they are not sure what to work on, talk it out.
+If someone is blocked because they are not sure what to work on, talk out it out if it is quick, if it will take longer, schedule a separate meeting.
 
-If someone is blocked because they are stuck with their code, figure out a plan to get unblocked:
+If someone is blocked because they are stuck with their code, figure out a plan to get unblocked (outside of this meeting time):
 
-- Talk it out with another group member after the meeting
+- Talk it out with another group member (after the meeting)
 - Do some pair programming
 - Ask an instructor for guidance
 
