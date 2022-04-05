@@ -6,7 +6,7 @@ There is a separate discipline of project management that can take a lot of stud
 
 We're going to learn some basics about project management to assist you with your capstone project.
 
-In the diagram below, planning is the first step. You've been introduced to user stories, wireframes and ERDs, which are all part of a planning phase. Let's complete what we need to learn for planning and then learn about about the other phases and how we'll apply them to the capstone project.
+In the diagram below, planning is the first step. You've been introduced to user stories, wireframes and ERDs, which are all part of a planning phase. Let's complete what we need to learn for planning and then learn about the other phases and how we'll apply them to the capstone project.
 
 ![Agile Sprint Cycle](./assets/agile-sprint-cycle.png)
 
@@ -63,12 +63,12 @@ Daily check-ins are often referred to as `Stand-ups` the idea is that if everyon
 Typically, the following questions are asked:
 
 - What did you work on yesterday?
-- Wha will you work on today?
+- What will you work on today?
 - What blockers are in your way?
 
-If there is a bigger issue to discuss ("I don't think we should build x feature any more, we should do y") - set a separate meeting time.
+If there is a bigger issue to discuss ("I don't think we should build X feature any more, we should do Y") - set a separate meeting time.
 
-If someone is blocked because they are not sure what to work on, talk out it out if it is quick, if it will take longer, schedule a separate meeting.
+If someone is blocked because they are not sure what to work on, talk out it out if it is quick. If it will take longer, schedule a separate meeting.
 
 If someone is blocked because they are stuck with their code, figure out a plan to get unblocked (outside of this meeting time):
 
@@ -98,7 +98,7 @@ The following roles should rotate for capstone:
 - One person should run the meeting (ask the questions, make sure everyone answers), make sure that the group stays on topic and after the meeting, sets up follow up meetings, as needed
 - One person should take notes
 - One person should update the Trello board
-- If there is a fourth member, they should watch the time and make sure the meeting does not run over.
+- One person should watch the time and make sure the meeting does not run over
 
 Further tips:
 
