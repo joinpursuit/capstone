@@ -22,7 +22,7 @@ Learning Outcomes
 |  8  | [Software Dev w. Teams](./software-dev-w-teams)  | [Software Dev w. Teams](./software-dev-w-teams/lesson-notes)  |  [Software Dev w. Teams](./software-dev-w-teams/activity)  |
 |  9  |   [Git/GitHub w. Teams](./git-github-w-teams)    |   [Git/GitHub w. Teams](./git-github-w-teams/lesson-notes)    |    [Git/GitHub w. Teams](./git-github-w-teams/activity)    |
 | 10  |     [Presentation Prep](./presentation-prep)     |     [Presentation Prep](./presentation-prep/lesson-notes)     |     [Presentation Prep](./presentation-prep/activity)      |
-| 11  | [Take Home Challenge 2](./take-home-challenge-2) | [Take Home Challenge 1](./take-home-challenge-2/lesson-notes) | [Take Home Challenge 1](./take-home-challenge-2/activity)  |
+| 11  | [Take Home Challenge 2](./take-home-challenge-2) | [Take Home Challenge 2](./take-home-challenge-2/lesson-notes) | [Take Home Challenge 2](./take-home-challenge-2/activity)  |
 
 ## Individual Project Code Wars
 
