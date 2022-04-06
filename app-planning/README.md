@@ -1,8 +1,8 @@
 # App Planning
 
-This pre-reading will go over three different planning activities
+This pre-reading will go over three different planning activities.
 
-- User stories
+- Organizing features via user stories and cards on Trello
 - Wireframes
 - ERDs (Entity Relationship Diagrams)
 
@@ -15,45 +15,55 @@ This pre-reading will go over three different planning activities
 
 ## Introduction
 
-In this program, so far, you've been building apps for yourself. The apps focus has been learning fundamentals. Now it's time to shift away from that focus and, instead, focus on applications that are for other people/customers and serve some business need.
+So far in this program, you've been building applications primarily for yourself. Put another way, the _reason_ you may have been building particular features has been for your edification. As part of this learning process, it is normal for your creative process to be a bit chaotic.
 
-To build applications that are for users, there is some upfront, non-coding work required.
+However, it's now time to shift away from that chaotic creation and instead focus on being extremely thoughtful in how you plan your applications. It's also important to begin thinking of applications that are for expressly for other people and customers. This means keeping your user in mind, first and foremost, which may or may not be you.
 
-Think about the apps you enjoy using, they are probably
+Applications that you use regularly likely have entire teams of people dedicated to anticipating your wants and needs. When you think of applications that you love to use, your favorites likely have the following in common:
 
-- Easy to navigate
-- Make it easy for you to do what you want to do on them
-- New features are intuitive/easy to discover/easy to learn to use
-- Look nice
-- Have a responsive design
+- They are easy to navigate
+- They are reliable and sensibly organized
+- They are organized in such a way that their new features are intuitive and easy to discover
+- They are designed to look aesthetically pleasing
+- They are responsive to different types of devices and screens
+
+In this lesson, you'll learn a few ways that your planning process can help create this kind of experience for your users.
 
 ## Building a User-First App
 
 ### User Stories
 
-One of the first things you can do is to write `user stories`.
+One of the first things you can do is to write user stories.
 
-User stories are a way to write about one or more features of an app in plain English. They also help non-developer teams understand the features adn can help clarify whether a feature is needed, is the feature intended and how it should ultimately work.
+User stories are a way to write about one or more features of an app in plain English. They also help non-developer teams understand the features that are being created and can help clarify the purpose behind a feature.
 
-User stories typically follow the following (or similar) format:
+User stories are typically written in the following format:
 
 ```
 As a <type of user>, I want to <some goal>, so that <some reason>.
 ```
 
-You can add detail by making the user stories smaller/more specific.
+You can add detail by making the user stories smaller or more specific.
 
 Let's look at a few examples:
 
-- As a customer, I want to see my account balance, so that I know whether or not I need to transfer money.
+- As a customer, I want to see my account balance, so that I know how much money I am able to withdraw.
 - As a school administrator, I want to be able to add new students to a school, so that I can start enrolling them into classes.
 - As a premium member, I want to be able to see articles without an overwhelming number of advertisements, so that I can focus on reading.
 
 From the lens of the user, it is clear what you can do. From a developer's perspective, it is clear what kind of features need to be built, from a business perspective it is clear what this feature solves. User stories end up being a really clear and easy tool for cross-team discussions.
 
-## Trello
+User stories can also be a way to generate some meaningful conversations. For example, take a look at that first example again.
 
-You will be using [Trello](https://trello.com/). Trello is an app that helps organize the work of big projects. Trello is made up of lists and cards. Cards should primarily be used to put individual user stories.
+> - As a customer, I want to see my account balance, so that I know how much money I am able to withdraw.
+
+When first thinking of how to address this user concern, you may just imagine needing to build a view in the application where a user can see their remaining balance. However, read that last part again: "_so that I know how much money I am able to withdraw."_ Instead of a simple balance, perhaps what the user really wants is the ability to know how much they can withdraw in a day.
+
+Conversations like this can help you build more creative, interesting, and helpful features for your users.
+
+### Trello
+
+One tool that can be used for organizing these user stories is [Trello](https://trello.com/). Trello is an app that helps organize the work of big projects. Trello is made up of lists and cards. Cards should primarily be used to put individual user stories.
 
 You will work with 5 lists:
 
@@ -99,37 +109,37 @@ The second one is also vague - is that the front-end? Back-end? Both? How many u
 
 The final one is too small a task and the feature functionality is unclear. Creating a button is very small and simple. Also, does it imply the ability to edit an item?
 
-### Wireframes
+## Wireframes
 
-Wireframes are a simple sketch of your app, usually done on paper or with an app. The wireframe lays out the different components and gives their approximate size and location.
+Wireframes are a simple sketch of your app, usually done on paper or with an app. The wireframe lays out the different components and gives their approximate size and location. Wireframes let all stakeholders agree on where information and visuals will be placed before developers begin building the interface.
 
-The wireframes lets all stakeholders to agree on where the information will be placed before developers begin building the interface.
+Typically a designer or product owner would create these wireframes as opposed to a software developer. However, when building your own applications you will need to do this on your own.
 
-Additionally, if you have thought back to previous projects, if you just started building your app before planning, you may have realized you didn't like how you had laid things out and when you went to refactor, it ended up taking a lot of time.
+Each page of your app should have a wireframe. You can plan your app a little further by also associating a route with each view.
 
-Typically a UX/UI (user experience, user interface) designer would create these wireframes. However, you will create your own for your apps now.
+### Types of wireframes
 
-Each page of your app should have a wireframe. You can plan your app a little further by also associating a route with each view, for example, for the example below, you may want to note that that is the view available at `/groceries`
+There are roughly three levels of wireframe:
 
-There are roughly three levels of wireframe
+- Low fidelity: these are just a black and white sketch with almost no details (see below)
+- Medium fidelity: these have more details, including styling and colors
+- Mockup: this is a full-fledged design with many specific details
 
-- Low fidelity - these are just a black and white sketch with almost no details (see below)
-- Medium fidelity - these have more details, including styling and colors
-- Mockup - this is a full-fledged design with many specific details.
+For applications you are building, you are only expected to create low fidelity wireframes.
 
-For now, you are only expected to do low fidelity wireframes
+#### Low fidelity wireframe example
 
 ![Low Fidelity Wireframe](./assets/low-fid-wireframe.png)
 
-This wireframe has the following elements
+This wireframe has the following elements:
 
-- A heading that has a background image (box with an x through it)
-- A logo on top of the box (the circle on top of the image)
+- A heading that has a background image (i.e. box with an x through it)
+- A logo on top of the box (i.e the circle on top of the image)
 - A header that identifies what the user is looking at
 - A button to add an item
-- A bulleted list that represents a list (whether you keep the bullets or remove them when you style the app is not decided yet)
+- A bulleted list that represents a list
 
-What happens when the user presses the add item button?
+This wireframe is a good start to a single page. However, consider what happens when the user presses the add item button:
 
 - Does a pop up appear?
 - Does it take the user to a new page?
@@ -138,79 +148,91 @@ What happens when the user presses the add item button?
 
 You have a lot of design decisions like this to make. Again, it is best to figure them out before coding is started.
 
-Finally, it is fairly typical to start with a mobile view first.
+### Templates
 
-Mobile views are simpler and it is usually easier to add elements when making a bigger view than to strip elements away to make a useful mobile view.
+One thing to also consider when making your designs is if you would like to follow a template. That would mean that you create the 'outer' elements that will be reused on every page. Design elements like the header, footer and navigation are things you often want to appear on every page.
 
-Additionally, many websites are visited first (and sometimes only) via mobile views, so having a great version of a mobile view tends to be an important priority.
-
-## Templates
-
-One thing to also consider when making your designs is if you would like to follow a template. That would mean that you create the 'outer' elements that will be reused on every page.
-
-Things like the header, footer and navigation are things you often want to appear on every page.
-
-When building your wireframes, think about building views that follow a similar pattern/style and what elements are reusable.
+When building your wireframes, think about building views that follow a similar pattern and reuse components from one page to the next.
 
 ## ERD (Entity Relationship Diagram)
 
-So far, you've been mostly working one data model (entity), perhaps two. For example, bookmarks and users.
-
-The need to plan and map out these simple models and their simple relationship (a user can have many bookmarks), hasn't been crucial in being able to build your app.
-
-However, when building a production level app there are tens, possibly hundreds of data models and their relationships can be very complex.
+So far, you've been mostly working one or two data models, also known as entities. For example, bookmarks and users. However, when building a production level app there are tens, possibly hundreds of data models and their relationships can be very complex.
 
 In order to design and debug, being able to draw out the entities and how they relate to one and other becomes a crucial tool.
 
-### Entities
+### Entity relationships
 
-ERDs are typically simple one to two column tables. The header has the name of the table and the rows are made up of each property's name and possibly, its datatype.
+An ERD, as the name suggests, highlights the relationship between multiple entities. This means diagramming how different tables are related in your application.
 
-![simple entity](./assets/simple-entity.png)
+Each entity is typically represented as a visual table with a header and two columns. The header has the name of the table and each row is made up of a key-value pair where the key is the field name and the value is the data type.
 
-Let's keep following this example and imagine this is for a school.
+![An example of a one-to-many relationship.](./assets/courses-students.png)
 
-There are many people at a school. All of them should have a name, phone number and email address. We can imagine that multiple people can share the same address (roommates, siblings, couples), so it is reasonable to have a separate table for addresses, this case. Depending on the goals of your app, making decisions about keeping data in one table or splitting it our are important design decisions and you should be able to give a reason why you chose to set up your data in a specific way.
+For example, in the image above the following is true:
 
-We can imagine that there are two types of people at a school - students and professors. Students will have grades associated with them, professors will have salaries associated with them. Two different types of data sets. In this case, we would have separate tables associated with the type of person at the school.
+- The `courses` table has four fields: `id`, `course_name`, `start_date`, and `end_date`.
+- The `students` table has five fields: `id`, `preferred_name`, `surname`, `email`, and `course_id`.
+- The `courses` table and `students` table have a primary key of `id`.
+- The `students` table references the `courses` table through the foreign key, `course_id`.
 
-![Multiple Entity Example, default template from draw.io](./assets/multiple-entities.png)
+You will also notice that a line goes from `courses.id` to `students.course_id`. This line represents the relationship between these two entities. The three lines attaching to the `students` table are often called "crows feet" and represent a "many" relationship, whereas the single line near the `courses` table represents "one."
 
-### Entity Relationships
+Put simply, this diagram shows that in this database structure it is possible for a course to have many students whereas each student can only be associated with one course.
 
-One thing you may have noticed is that there are lines between the entities and some other figures (arrow, numbers).
+### Complex applications
 
-These represent the relationships between the entities.
+Let's keep following this example and imagine we are building an application that will track which class a student is taking and allow those students to make reviews. This application will also keep track of which instructor is assigned to which class. In order to make this application work, we'll need to make the following changes:
 
-Here is a non-exhaustive set of relationships entities may have
+- We will need some way to keep track of instructors. We will assume that only one instructor will be teaching each course.
+- We will need some way to keep track of reviews. Reviews will be associated with both a student and a course.
 
-- zero (no line): Salaries have no relation to addresses.
-- many (crows feet/fat arrow): a school has many students
-- one or many (single line and crows feet/fat arrow): a class may have one or many instructors
-- zero or many (0 and crows feet/fat arrow): a class may have 0 or many enrolled students
-- one and only one (single lines or the number 1): a professor may have one and only one home address
+In order to make this application's database work, you may come up with the following ERD.
 
-In the above example students can have many classes and classes can have many students - we have referred to this when working with Postgres as `many to many` relationship.
+![A more complex ERD.](./assets/complex-erd.png)
 
-The other kind of relationship can be thought of as instructor can teach many classes (and for simplicity, we will say only one teacher can teach a class at this school), we have referred to this as a `one to many` relationship when working with Postgres.
+This ERD showcases the following:
 
-You will notice if you research ERDs and/or look at different online tools that the way to mark relationships can vary across apps. Choose one style when planning an app. When you plan other apps you can try different styles. When work at a job, there will be a style already chosen that you will adapt.
+- Courses have many students.
+- Courses have many instructors.
+- Courses have many reviews.
+- A student can have many reviews.
+- A student has only one course.
+- An instructor has only one course.
 
-### API Planning
+In looking at these tables, did you notice some duplication? The `students` and `instructors` table is exactly the same. Creating ERDs can make it much easier to see potential duplication like this in advance, as opposed to halfway through building an application.
 
-Since you are planning to build a RESTful API, you can even do a bit more planning.
+A refactor of this ERD could produce the following diagram.
 
-When you look at the example diagram, there is a line and then some further actions like `purchase parking pass`.
+![A simplified ERD.](./assets/simplified-erd.png)
 
-You can utilize this same pattern to determine what CRUD actions your app should be able to perform (create new person, edit person, delete person). You may not need to have full CRUD for every model. For example, if you were creating a weather station and sending data back to a main hub, you wouldn't want anyone to be able to change or delete the data that the weather station has reported.
+In this ERD, students and instructors have been merged into a single table. However, that table now has a new field: `contact_role`. With this role, you could assign a number to represent students and another to represent instructors.
 
-What about the action `purchase parking pass` - what would be the API route to do that?
+There are other ways you could make changes to this ERD. Ultimately, the right way depends upon the kind of queries you're making in your application as well as the general purpose of your application.
 
-Taking the time to build your diagrams and then generating a list of routes to create and tests can be very helpful in deciding what to work on and in what order.
+### Other relationships
+
+There are many types of relationships besides a "one-to-many" relationship. Below is a non-exhaustive list of the kinds of relationships between tables.
+
+- No relationship. For example, if a new table was added of `admin_users`, that table may not have any relationship to the existing tables.
+- Many-to-many. For example, if you wanted `contacts` to be able to be associated with multiple courses as opposed to just one at a time.
+- One and only one. For example, if you wanted a separate `addresses` table to be associated with the `contacts` table, you could set up a relationship where each contact can only have one address and each address can only have one contact.
+
+You will notice if you research ERDs or look at different online tools that the way to mark relationships can vary across apps. You should choose one style when planning an app.
+
+## API Planning
+
+ERD diagrams and low fidelity wireframes are useful on their own but can also be useful for planning an API. By understanding what tables you are planning to have, you can make more thoughtful decision about your API's routes.
+
+For example, in the most recent ERD above, there were three tables: `contacts`, `courses`, and `reviews`. You _could_ immediately plan to make CRUD routes for all of those tables. However, it would make more sense to do the following:
+
+- First, you could look to your wireframes and see what views you are planning to create. You may find out that you actually don't need every CRUD route for every resource. For example, after a review is created, you may actually not want to allow it to be updated.
+- Next, you might come up with unique routes depending on the functionality of your application. For example, you may want the ability to create multiple courses at once.
+
+The above steps will reduce the work you have to do in the long run. While it is normal for plans to change while you're in the middle of building an application, planning in advance can save you a lot of time.
 
 ## Choosing your tools
 
-There are many tools out there and the features and pricing they have is always changing. Your primary focus is to build an app, so it's important to do very basic things that help you get set up.
+There are many tools out there and the features and pricing they have is always changing. Your primary focus is to build an application, so it's important to do very basic things that help you get set up.
 
 Choosing a simpler tool will have the lowest learning curve, which will let you focus on the task, rather than learning the tool. If you already are familiar with a tool and have access to it, you can use it.
 
