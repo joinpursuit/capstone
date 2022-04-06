@@ -120,9 +120,7 @@ Success! Victory! This list shows tasks that are complete by your team. It's a g
 
 ![done-list.png](./assets/done-list.png)
 
-## Other Features
-
-### Labels
+## Cards in More Depth
 
 Not everything task you'll have to work on is a user story. There are two other common tasks that you can (and should) include in your trello board. You can also use `labels` to denote that they are not user stories:
 
