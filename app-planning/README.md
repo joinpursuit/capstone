@@ -53,3 +53,4 @@ If you have further interest in developing your knowledge and skills on a partic
 - [User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)
 - [Creating Wireframes Walk-through Video](https://youtu.be/qpH7-KFWZRI)
 - [What is an Entity Relationship Diagram](https://www.lucidchart.com/pages/er-diagrams)
+- [Principles of Effective Story Writing: The Pivital Labs Way](https://www.pivotaltracker.com/blog/principles-of-effective-story-writing-the-pivotal-labs-way)
