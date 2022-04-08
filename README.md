@@ -18,7 +18,7 @@ Learning Outcomes
 |  4  | [Take Home Challenge 1](./take-home-challenge-1) | [Take Home Challenge 1](./take-home-challenge-1/lesson-notes) | [Take Home Challenge 1](./take-home-challenge-1/activity)  |
 |  5  |  [Behavioral Interview](./behavioral-interview)  |  [Behavioral Interview](./behavioral-interview/lesson-notes)  |  [Behavioral Interview](./behavioral-interview/activity)   |
 |  6  | [Pairing on a Take Home](./pairing-on-take-home) | [Pairing on a Take home](./pairing-on-take-home/lesson-notes) | [Pairing on a Take home](./pairing-on-take-home/activity)  |
-|  7  |          [App Planning](./app-planning)          |     [Software Dev w. Teams](./app-planning/lesson-notes)      |      [Software Dev w. Teams](./app-planning/activity)      |
+|  7  |          [App Planning](./app-planning)          |          [App Planning](./app-planning/lesson-notes)          |          [App Planning](./app-planning/activity)           |
 |  8  | [Software Dev w. Teams](./software-dev-w-teams)  | [Software Dev w. Teams](./software-dev-w-teams/lesson-notes)  |  [Software Dev w. Teams](./software-dev-w-teams/activity)  |
 |  9  |   [Git/GitHub w. Teams](./git-github-w-teams)    |   [Git/GitHub w. Teams](./git-github-w-teams/lesson-notes)    |    [Git/GitHub w. Teams](./git-github-w-teams/activity)    |
 | 10  |     [Presentation Prep](./presentation-prep)     |     [Presentation Prep](./presentation-prep/lesson-notes)     |     [Presentation Prep](./presentation-prep/activity)      |
