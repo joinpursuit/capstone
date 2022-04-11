@@ -1,5 +1,7 @@
 # Git and GitHub with Teams
 
+You have learned about collaborating with GitHub in an [earlier lesson](https://github.com/joinpursuit/8-0-technical-curriculum/tree/main/03-react/collaboration-with-github). However, it's been a little bit of time since this lesson. Let's do a refresher!
+
 ### Git Refresher
 
 So far, you have been using git to get code (pull) from a remote repository (on github), writing your own code, tracking it with git, and moving (push) the code from your computer (local version) to github.
@@ -66,9 +68,7 @@ You may be thinking 'this sounds too good to be true!' It's not! But there is a 
 
 (image from https://git.scm/about)
 
-### New Git Commands
-
-To be able to use branches, we will have to learn some new git commands
+### Branching Git Commands
 
 | git | Argument | Flag(s)/Additional arguments |                              Description                               |
 | :-: | :------: | :--------------------------: | :--------------------------------------------------------------------: |

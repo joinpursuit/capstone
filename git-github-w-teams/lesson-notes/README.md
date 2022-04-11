@@ -13,6 +13,18 @@
 
 ## In Class Activity
 
+In this class activity:
+
+- You will all become collaborators on a single repository
+- Get a copy of the repository on your machine
+- Make a change and push it directly to master
+- Create a branch, make a change and push it to your branch
+- Make a pull request to merge your branch into main
+- Learn about why there is a `dev` branch and see a way it can be used
+- Work in small groups on a shared branch, using what you learned in earlier steps
+- Bring the changes from your feature back into main
+- Get all the changes everyone made onto your machine
+
 ### Set Up
 
 Together, the class will collaborate on a new repository.
@@ -35,12 +47,12 @@ Today, we will all work and contribute to the same repository without making for
 
 **Instructor**
 
-- Create a new repository on GitHub, with a default `README.md` file
-- Add all students as collaborators with `write` permission
+- Create a new repository on GitHub in the `joinpursuit` org so that you can add your class as a team, with a default `README.md` file
+- Add all students as collaborators with `write` or `admin` permission
 
 **Students**
 
-- Accept the invite to collaborate on the repository
+- You may need to accept an invite to collaborate on the repository - please check your email
 - Navigate to a folder on your computer that is not already a git repository
 - Do NOT fork this repository
 - `git clone <repository url>`
@@ -49,6 +61,8 @@ Today, we will all work and contribute to the same repository without making for
 - `git add .`
 - `git commit -m 'add <my_name> file`
 - `git push origin main`
+
+You often don't need permission to `clone` or `pull` from a public repository. However, if you want to make changes, you need to be explicitly added as a collaborator
 
 **Instructor**
 
@@ -67,9 +81,9 @@ Once everyone has added their file:
 
 Git figures out how to merge the code most of the them. Merge conflicts happen with then git algorithm cannot figure out which code is the newest/correct code to keep.
 
-Merge conflicts are solvable and it's good to get some as you are learning so you learn how to deal with them. The worst things about them is that they can, sometimes, take a long time to sort out.
+Merge conflicts are solvable and it's good to get some as you are learning, so you learn how to deal with them. The worst things about them is that they can, sometimes, take a long time to sort out.
 
-Most often, will happen when people work on the same file at the same plan without a plan/good communication.
+Most often, will happen when people work on the same file at the same time without a plan and/or good communication.
 
 **Instructor**
 
@@ -161,7 +175,7 @@ Instead:
 
 - `git push origin <branch_name>`
 
-- Everyone should go to the GitHub repository page and open a pull request against the branch `dev`
+- Everyone should go to the GitHub repository page and open a pull request against the branch `dev` that the instructor has created.
 
 **Instructor**
 
@@ -178,21 +192,34 @@ Make the changes. Git add, commit and push again.
 
 You don't need to make a new pull request in order for the changes to be merged in.
 
-Once everyone's changes are merged into `dev`. Bring in the changes to your branch
+Once everyone's changes are merged into `dev`. Bring in the changes to your branch with
 
 - `git pull origin dev`
 
 You should now be able to see everyone's updates.
 
+## Move All the Changes from `dev` to `main` and Get Them Locally
+
 **Instructor**
 
-Merge all the changes into main
+Merge all the changes into main.
 
 Why did we merge all our changes to a new branch `dev`, instead of directly into `main` (imagining that `main` is production code)?
 
+**Students**
+
+Get the changes to `main` into your branch by checking you are on your branch and running
+
+- `git pull origin main`
+
+Get the changes from `main` onto your `main` branch by
+
+- `git checkout main` (why is the `-b` not included?)
+- `git pull origin main`
+
 ## New Features
 
-You will now be put into small groups to work on one of the following features. Each group will work on one feature
+You will now be put into small groups to work on one of the following features. Each group will work on one feature:
 
 - cool
 - fun
@@ -208,19 +235,21 @@ You will now be put into small groups to work on one of the following features. 
 - marvelous
 - peachy
 
-With your group - switch back to the `main` branch and make sure you have the latest version
+### In Breakout Rooms:
+
+With your group - switch back to the `main` branch and make sure you have the latest version, if you haven't already:
 
 - `git checkout main`
 - `git pull origin main`
 
-Now, make a new feature branch
+Now, make a new feature branch after the feature name you were given (everyone in your group should have the same `<feature>` name here). For example, if you are all in the `awesome` group everyone should make a branch called `awesome`
 
 - `git checkout -b <feature>`
 
-One group member should make a new folder called your feature
+One group member should make a new folder called `feature`
 
 - `mkdir <feature>`
-- and move your file into this folder
+- Move your file into this folder
 - git add, git commit
 - `git push origin <feature>`
 
@@ -233,15 +262,21 @@ To bring in the changes.
 The rest of the group members should now move their files into this folder.
 
 - git add, commit
-- `git push origin <feature>`
-
-Once everyone is done
-
 - `git pull origin <feature>`
+- `git push origin <feature>`
 
 Make sure everyone's files are in the correct folder.
 
+Once everyone is done do this one more time:
+
+- `git pull origin <feature>`
+- `git push origin <feature>`
+
+It's ok if there are no changes, you can run `push` and `pull` as many times as you like.
+
 Choose one person to open a pull request against `dev` with your `<feature>`
+
+## Main Group Reassemble
 
 **Instructor**
 
@@ -262,3 +297,5 @@ Finally, checkout to main
 And lastly, pull in the latest changes from GitHub's main branch to yours
 
 - `git pull origin main`
+
+Learning to collaborate with git and GitHub takes time and practice. Think about what you want to accomplish, what you expect to happen and check if it happened. If it didn't happen take some time to understand why and then try again.
