@@ -1,5 +1,19 @@
 # Capstone Project
 
+Project Requirements:
+- Ability to create and use a database
+- Ability to create and use a server
+- Ability to create and use a UI
+- Ability to deploy a project online
+
+- 2+ resources
+- At least 1 one-to-many relationship
+- Full CRUD routes (overall, not necessarily per resource)
+- All members must contribute to the code base in a significant way
+
+
+
+
 ## Build Something Together
 
 ## Part 1
