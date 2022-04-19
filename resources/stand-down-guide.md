@@ -42,7 +42,7 @@ The following roles should rotate for capstone:
 - Gain insights: What patterns does everyone see? Any surprises? What was learned? What is something new you didn't know before discussing things in this meeting? (see below)
 - Update the Trello board and plan next teps
 
-Things to cover:
+Example of things to cover and approximate timing (adapt to your needs):
 
 - Accomplishments (~5 minutes)
   - Make sure the relevant cards are moved to `done` 
