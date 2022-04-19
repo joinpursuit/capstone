@@ -48,6 +48,22 @@ Zoom best practices:
 - Keep the meetings short and on point
 - But also, take a moment to check-in on how everyone is feeling/doing
 
+## Meetings
+
+Well-run meetings are critical for success. Meetings should not be painful. Make your meetings more successful by:
+- Starting on time
+- Be well-planned/have an agenda (and approximate timing for each agenda item - see below)
+- Time should be managed well
+- Should end on time
+
+Meetings that start late, will teach people that coming on time is a waste of time, then they will come later, then other people will come even later. This is bad for morale and bad for running an effective meeting.
+
+Meetings that have no agenda can drag on and not accomplish anything.This can feel very wasteful for people and when people feel their time is wasted they won't be engaged in the meeting. Topics should address things that the entire team should know about.  If there are separate issues, plan separate meetings. 
+
+Meetings that are allowed to go off-topic/get derailed don't allow the critical topics to be addressed, causing the need for more meetings. Make sure to move tangental topics to a separate meeting. 
+
+Meetings that run over again and again will cause people frustration and feel bad for everyone. If there are unaviodable critical things to still discuss ask if it is ok to run over to discuss exactly x item or if it would be better to schedule a different time. If your meetings keep running over, figure out why and adapt.   
+
 ## Sprints
 
 You will work in several sprints over the next few weeks. A sprint is a process of planning the work for a short period of time. At the end of each sprint, you will look at the work completed and the work not completed and make a new sprint (plan) that adapts to where your team and app is at.
