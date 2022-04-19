@@ -8,7 +8,7 @@ The goal is to have open communication and be agile (adaptable) to wherever your
 
 Building a large app is challenging and there is a lot to still learn. Success is about learning and moving forward. 
 
-Early in your career, it is extremely hard to guague how long it will take to build a feature. Make your best guess and learn from each guess. Even experienced devs can get the timing very wrong.
+Early in your career, it is extremely hard to gauge how long it will take to build a feature. Make your best guess and learn from each guess. Even experienced devs can get the timing very wrong.
 
 One of the goals of agile is to constantly adapt to the new things discovered along in the process when building a feature. Some common things that can happen are
 - Certain gotchas with a feature that were not considered, making it much harder and more time consuming to build
