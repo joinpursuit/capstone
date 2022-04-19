@@ -20,6 +20,14 @@ One of the goals of agile is to constantly adapt to the new things discovered al
 
 The day of this meeting, everyone should take a few minutes to update their Trello cards, review where they are in their work, and gain enough information from Trello to be ready to fully participate in the meeting. 
 
+## Meeting Best Practices
+
+Be sure to run an effective meeting that stays within the topic and time boundaries set. Everyone should be engaged and feel that the meeting is productive and a good use of their time. 
+
+- Start on time
+- Stay on topic (have an agenda and stick to it, plan other meetings/other times to discuss things that were not planned)
+- End on time. If you have something critical to discuss ask if it is ok to run over or if it is better to plan another meeting or meet with a smaller group of people. If you are always running over, figure out why and plan as a group how to solve it
+
 ## Retro (Retrospective) - no more than half the time set aside
 
 - Set the tone.
