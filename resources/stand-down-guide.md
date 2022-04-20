@@ -65,6 +65,21 @@ Further tips:
 To make a successful retro, think of the following tips:
 - Did everyone participate? Help ensure that everyone feels engaged in the process
 - Does the meeting feel safe to discuss things openly and candidly? It's important that people feel that it is ok to open up about their struggles so that the team can collaborate on finding ways to support each other and keep moving the project forward. When a team member feels like they haven't been able to do as much as they thought they could, it can feel really bad. Support your teammate so that the next week can go better. A team that cannot talk candidly cannot problem solve effectively.
+- Make sure feedback/critisism is constructive. When providing critisism it should be specific, relevant, actionable, and delivered with empathy.
+
+**Bad feedback**
+
+- I don't like how it looks
+- This code kinda sucks
+
+
+**Good Feedback**
+
+- I think the difference in font sizes is too great. What do you think of trying to make the sizes more similar?
+- This react component is very large. It should be at least three components: x, y, z - that way it will be easier to maintain and I think we could end up reusuing y elsewhere. Would you like me to help you with doing that?
+
+
+
 - Follow through - whatever you decide on, make sure you check-in about it and follow up
 
 ## Planning - Remaining Time
