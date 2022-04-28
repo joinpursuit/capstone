@@ -2,7 +2,7 @@
 
 Canvas assignment(s)
 
-Submit via Canvas at least one idea a day for a total of 3 ideas:
+Submit via Canvas at least one idea a day for a total of 2 ideas:
 
 - Which industry does this app belong to?
 - Who is this product for (customer persona)
