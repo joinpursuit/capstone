@@ -1,7 +1,5 @@
 # Behavioral Interview Lesson Notes
 
-# Ideation Lesson Notes
-
 ## Learning Objectives
 
 - Be able to know what it takes prepare for an interview, in person or via video
