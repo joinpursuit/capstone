@@ -104,7 +104,7 @@ Behavioral questions tend to start with
 - Give me an example of ...
 - Tell me about a time ...
 
-And they usually are looking for an example of something that was on of these six option:
+And they usually are looking for an example of something that was one of these six options:
 
 - Best/worst
 - Success/failure
