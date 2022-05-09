@@ -4,15 +4,16 @@ You will be presenting your app at Demo Day. Here are the specific details of th
 
 ## Getting Started
 
-[Copy This Deck](https://docs.google.com/presentation/d/1qXb3uDrNxSmzV5vTvHsLBptH0cKqL9Dy4QfyDILsFlM/edit#slide=id.g6c1b6be0e1_0_0) and make it your own. You will build out your own slide deck. You can change the fonts and colors to match your app/team style.
+[Copy This Deck](https://docs.google.com/presentation/d/1qXb3uDrNxSmzV5vTvHsLBptH0cKqL9Dy4QfyDILsFlM/edit#slide=id.g6c1b6be0e1_0_0). As described in the slide deck itself, you should work with your group to improve the design of the slide deck while keeping the general structure the same. 
 
 ## Timing
 
-You will have approximately 8 minutes for your presentation
+You will have approximately 8 minutes for your presentation:
 
 - 1 minute for team introductions
-- 5 minutes for your pitch and the app demo
-- 2 minutes for Q&A
+- 7 minutes for your pitch and the app demo
+
+There will also be 2 minutes reserved for your group to answer questions from panelists.
 
 ## Team Introductions
 
