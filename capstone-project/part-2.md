@@ -55,6 +55,9 @@ Create a repository and make sure everyone is added as a collaborator
 - [ ] Learned everyone's work hours
 - [ ] Discuss best methods of communication
 - [ ] Determine initial work cadence (can be changed later)
+- [ ] Build Trello Board as instructed in class (Backlog, To-Do, Done etc.), be sure to grant your instructional team access
 - [ ] Create user stories on Trello
 - [ ] Create wireframes
 - [ ] Create ERDs
+
+Note: A number of these resources subitted via Canvas. They need to be far enough along that your team and instructional team feel confident that things are planned enough to start building the app. These resources will change over the duration of your project and that is OK.
