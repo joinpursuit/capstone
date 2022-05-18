@@ -55,6 +55,6 @@ Create a repository and make sure everyone is added as a collaborator
 - [ ] Learned everyone's work hours
 - [ ] Discuss best methods of communication
 - [ ] Determine initial work cadence (can be changed later)
-- [ ] Create user stories
+- [ ] Create user stories on Trello
 - [ ] Create wireframes
 - [ ] Create ERDs
