@@ -6,7 +6,7 @@ You will be presenting your app at Demo Day. Here are the specific details of th
 
 You will need to create the following resources and submit them for demo day so that the team running the event can compile everything and have it available for the event. 
 
-- [Copy this demo script template]([https://docs.google.com/document/d/1_X4-JCg2YglDaWIxCB2p_XRJLffN2XYp05Gq7Kxw1NE/edit](https://docs.google.com/document/d/1GfQLWbsKBKP5hN3tDrQu6d7l85Lq8xEzX9Te9vQoUtE/edit)), fill it out as you build out your presentation. 
+- [Copy this demo script template](https://docs.google.com/document/d/1GfQLWbsKBKP5hN3tDrQu6d7l85Lq8xEzX9Te9vQoUtE/edit), fill it out as you build out your presentation. 
     - Everything in orange should be updated to be specific to your app. 
     - Copy the transition and feature rows as many times needed. The number of features should also be increased/decreased to align with your presentation. 
 
