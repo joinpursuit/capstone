@@ -4,7 +4,15 @@ You will be presenting your app at Demo Day. Here are the specific details of th
 
 ## Getting Started
 
-[Copy This Deck](https://docs.google.com/presentation/d/1qXb3uDrNxSmzV5vTvHsLBptH0cKqL9Dy4QfyDILsFlM/edit#slide=id.g6c1b6be0e1_0_0). As described in the slide deck itself, you should work with your group to improve the design of the slide deck while keeping the general structure the same. 
+You will need to create the following resources and submit them for demo day so that the team running the event can compile everything and have it available for the event. 
+
+- [Copy this demo script template]([https://docs.google.com/document/d/1_X4-JCg2YglDaWIxCB2p_XRJLffN2XYp05Gq7Kxw1NE/edit](https://docs.google.com/document/d/1GfQLWbsKBKP5hN3tDrQu6d7l85Lq8xEzX9Te9vQoUtE/edit)), fill it out as you build out your presentation. 
+    - Everything in orange should be updated to be specific to your app. 
+    - Copy the transition and feature rows as many times needed. The number of features should also be increased/decreased to align with your presentation. 
+
+  - [Here is an example of a completed script](https://docs.google.com/document/d/1_X4-JCg2YglDaWIxCB2p_XRJLffN2XYp05Gq7Kxw1NE/edit). Notice the level of detail in both the left and right columns.
+
+  - [Copy this deck](https://docs.google.com/presentation/d/1qXb3uDrNxSmzV5vTvHsLBptH0cKqL9Dy4QfyDILsFlM/edit#slide=id.g6c1b6be0e1_0_0). As described in the slide deck itself, you should work with your group to improve the design of the slide deck while keeping the general structure the same. 
 
 ## Timing
 
@@ -110,16 +118,34 @@ Prior to Demo Day
 
 Make sure your presentation addresses the following
 
+
+
+
+#### Main Elements
+
 - [ ] Speaker intros are personal and inspiring
 - [ ] Speaker intros tie in to the app in some way
 - [ ] Hook/Problem is clearly described
 - [ ] App as a solution is convincingly explained
 - [ ] How the app adds value to a customer is addressed
-- [ ] Target audience is identified and the demo explicitly illustrates user needs
 - [ ] App evolution via feedback is addressed
-- [ ] Presentation skills are polished and delivery techniques make the presentation engaging
-- [ ] Speakers can answer audience questions well
+
+
+#### Audience 
+
+- [ ] Target audience is identified and the demo explicitly illustrates user needs
+
+
+#### Content
+
 - [ ] The slide deck is visually appealing and of excellent quality
+- [ ] The script lays out the order of speakers and captures talking points
+
+
+#### Delivery  
+- [ ] Presentation skills are polished and delivery techniques make the presentation engaging (eye contact, stage precense, and clear voice projection) 
+- [ ] Speakers can answer audience questions well
+
 
 ### Examples
 
