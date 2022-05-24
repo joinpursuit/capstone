@@ -19,7 +19,7 @@ You will need to create the following resources and submit them for demo day so 
 You will have approximately 8 minutes for your presentation:
 
 - 1 minute for team introductions
-- 7 minutes for your pitch and the app demo
+- 6 minutes for your pitch and the app demo
 
 There will also be 2 minutes reserved for your group to answer questions from panelists.
 
