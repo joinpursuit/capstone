@@ -23,6 +23,8 @@ You will have approximately 7 minutes for your presentation:
 
 There will also be 2 minutes reserved for your group to answer questions from panelists.
 
+Please reference the top of the [demo script template](https://docs.google.com/document/d/1GfQLWbsKBKP5hN3tDrQu6d7l85Lq8xEzX9Te9vQoUtE/edit) and confirm the exact timing with your instructor as each demo day has a different number of groups and the timing will be adjusted slightly according to the needs of the event. 
+
 ## Team Introductions
 
 Each team member should have a personal pitch. This pitch should be specific, personalized and memorable. It should contain an element of a personal story.
